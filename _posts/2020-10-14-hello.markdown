@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Hello"
+date:   2020-10-14 22:56:31 -0400
+categories: blog
+---
+I'm not much of a blogger, but I wanted a place to put a few notes about some
+side projects I worked on.  Wordpress seemed way too heavy, so I thought I'd try
+Jekyll.
