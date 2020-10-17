@@ -23,7 +23,7 @@ email: sv@stevenvictor.net
 description: >- # this means to ignore newlines until "baseurl:"
   Side project notes
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://smycynek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username:  smycynek
 root: /
