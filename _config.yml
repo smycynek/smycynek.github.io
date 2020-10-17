@@ -28,7 +28,7 @@ url: "https://smycynek.github.io" # the base hostname & protocol for your site, 
 github_username:  smycynek
 root: /
 # Build settings
-theme: minima
+theme: jekyll-theme-merlot
 plugins:
   - jekyll-feed
   
