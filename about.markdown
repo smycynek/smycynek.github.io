@@ -4,9 +4,4 @@ title: About
 permalink: /about/
 ---
 
-# Contact Me
-
-* <https://stevenvictor.net>
-* <https://github.com/smycynek>
-* <https://www.linkedin.com/in/steve-mycynek>
-* <sv@stevenvictor.net>
+I'm a career CAD and real estate software fanatic and work mostly on BuildingEngines products. I also do a lot of fun toy projects.
