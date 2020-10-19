@@ -1,0 +1,29 @@
+---
+layout: post
+title:  Airplane challenge
+date:   2020-10-19 07:02:31 -0400
+categories: blog
+---
+
+A few days ago, I found this article about a [learning strategy](https://medium.com/@leyiyo3918/elon-musks-2-rules-for-learning-anything-faster-76c86c9d76ae) that Elon Musk uses.  Basically, he tried to formally identify what he doesn't know and how it relates to other things he doesn't know in terms of core importance, and he also tried to relate new things he learns to other projects he works on.  I'm not a billionaire yet, so I'm sure there's
+a bit more to it than that.  Anyway, it reminded me of a fun thing I used to do when we used to fly on these
+large crafts called airplanes in an enclosed space for a few hours.
+
+#### Don't pay for WiFi
+
+The airplane is the last place on Earth where I can still easily resist being connected.  What I sometimes do is
+try to solve a problem on a plane without help from the Internet.  A few years ago, I did this with calculating a Riemann sum, or area under a curve -- something you learn in first-semester calculus.  I figured -- it's been a few years -- many more than a few :), let's see if I can still remember how to do this without help.  So, I got to it in python, and by the time the plane landed, I had a primitive system for defining polynomials and approximating area between two bounds on them. I made a few hundred fixes and enhancements after the plane landed :) <https://github.com/smycynek/area_under_curve>  
+
+Looking back, this area project and the projects that followed it illustrated Musk's strategy a bit.
+
+#### Strategy 1: What do I know or not know, and what does that mean?
+
+I discovered that ranges and off-by-one errors are a pain in this sort of application, and that's why you are better off NumPy's built-in ranges and utilities.  I realized that while most of Python's rules for negative exponents, fractional exponents, etc... were intuitive, I should have some validation up front.  I also learned that every language has all sort of clever ways of using reflection to bind the name of a function to a function, but maybe just pick the way that's the most loosely coupled.  None of these things were show-stoppers, but going a little deeper into how python deals with non-trivial things is worthwhile.
+
+#### Strategy 2: How do these new skills relate to other projects?
+
+In my previous post, I mentioned that I like projects that are just challenging enough to get you out of
+your comfort zone.  If I wanted to build a new React App to challenge me, it would need to attack a real problem,
+not a softball problem I already knew how to solve.  So, I applied the area-under-a-curve problem to React.
+<https://stevenvictor.net/area_under_curve/> I had to learn all the language trivia I learned in python in JavaScript, leading to all sorts of unexpected finds.
+I also needed number inputs, list boxes, formatted output, etc...  Because the area under curve problem can't really be made easier, *my React skills would be what would have to adapt and grow instead.*
