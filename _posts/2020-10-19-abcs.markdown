@@ -1,0 +1,81 @@
+---
+layout: post
+title:  ABC Flashcards -- from nebwbie to advanced newbie :)
+date:   2020-10-22 07:41:29 -0400
+categories: blog
+---
+
+One of the first React apps I created was a set of alphabet flashcards for my daughter.  I found that most ABC apps/sites
+have annoying ads and annoying sounds, and some even make you pay extra to see the whole alphabet!  I just wanted something
+simple to show her if we have a few spare minutes.
+
+<https://stevenvictor.net/abc>
+
+As you can see, the app cycles through all the available words in a given letter before advancing to the next letter.
+
+At the time, I could barely put a React button-handler in place,
+so I came up with a pretty simple design.
+
+* React-class-based
+* Use emojis for the pictures
+* Map word names to css class names
+* Create a dictionary of letters and words, e,g
+
+```javascript
+[
+  {"A": ["Apple", "Acorn", ...]},
+  {"B": ["Bear, ...]},
+  ...
+]
+```
+
+* Cycle through the nested list with a `setInterval` timer.
+
+This was okay, but later, I wanted to redo the app with hooks and clean it up a bit in general.  I learned a few things:
+
+`setInterval` and hooks introduce some previous state complexity, since I was tracking the word index as well as the character index.  You can't just write `setWordIndex(WordIndex+1)` anymore.  Because we need to cycle through each word before advancing to the next letter, I needed to nest calls to `setWordIndex((prev) => ...)` and `setCharIndex((prev) => ...)` and add some logic for when to reset the word index to zero.  This got *very* complicated quickly.  
+
+I then thought of using a custom hook to update the word and character index all at once in a single data structure. This made things much easier, but it still seemed like a complicated solution to a simple problem.  I realized that a flat list of words would be much easier to advance through, and I could just grab the first letter of each word and use that to display the starting character.
+I could then alphabetize the list automatically as well.
+
+The next issue was the CSS for the emojis.
+
+I originally had a long list of CSS classes:
+
+```css
+  .Apple:after {
+    content: "\01F34E";
+  }
+
+  .Acorn:after {
+    content: "\01F330";
+  }
+```
+
+This never seemed right to me.  So, after doing a Sass tutorial,
+```scss
+$emojis: (
+      "Apple": "\01F34E",
+      "Acorn": "\01F330",
+      "Angel": "\01F47C\01F3FD",
+      "Banana": "\01F34C",
+      "Ball": "\026BD",
+      "Bear": "\01F43B",
+      "Book": "\01F4D5",
+      "Balloon": "\01F388",
+ ...
+)
+ 
+@each $name,
+  $code in $emojis {
+  .#{$name}:after {
+    content: $code;
+  }
+}
+
+```
+
+Much better.
+
+It's still a simple app, but now it uses more appropriate tooling
+and a more direct design.
