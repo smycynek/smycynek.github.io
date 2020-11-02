@@ -10,10 +10,19 @@ around to doing something I've always wanted -- an album cover
 generator: <https://stevenvictor.net/kmfdm>.  I was reminded of
 this when I was adding a few enhancements to the alphabet flashcard app <https://stevenvictor.net/abc>.  
 
-I love it when non sequiturs or random value sets up the perfect punchline.
-Here a a few of the funnier ones.
+The band [KMFDM](https://kmfdm.net)  has a very specific and recognizable style,
+and they also love a little bit of self-referential
+and self-deprecating humor.  I also love it when non sequiturs or random value sets up the perfect punchline. Here a a few of the funnier albums I created with some SVGs
+from FlatIcon.com.
 
-![Albums](./albums.png)
+![Albums](/assets/images/albums.png)
+
+I'm sure there are plenty of good ways to one of many SVGs to display, but what I did was:
+
+1.  Scale all of them down a bit.
+2.  Run them through <https://react-svgr.com/> to make them into react components
+3.  Concatenate all components into one file, and export an array of components.
+4.  Pick a component at random from the array.
 
 There's still plenty to do on this.  The color values are duplicated between the css and the javascript.  I need get the image download button working on mobile.  I want to add some more SVGs that can pass for the style of Adrian Hughes.
 <https://www.pinterest.com/perihelion3/aidan-hugheskmfdm/>
