@@ -1,0 +1,16 @@
+---
+layout: post
+title:  Airplane challenge
+date:   2020-11-01 19:00:00 -0400
+categories: blog
+---
+
+I wanted to do a little more CSS and SCSS, so I finally got
+around to doing something I've always wanted -- an album cover
+generator: <https://stevenvictor.net/kmfdm>.  I was reminded of
+this when I was adding a few enhancements to the alphabet flashcard app <https://stevenvictor.net/abc>.  
+
+I love it when non sequiturs or random value sets up the perfect punchline.
+Here a a few of the funnier ones.
+
+![Albums](albums.png)
