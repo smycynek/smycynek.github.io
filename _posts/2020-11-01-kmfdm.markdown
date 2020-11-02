@@ -5,8 +5,8 @@ date:   2020-11-01 19:00:00 -0400
 categories: blog
 ---
 
-I wanted to do a little more CSS and SCSS, so I finally got
-around to doing something I've always wanted -- an album cover
+I hoped to do a little more CSS and SCSS, so I finally got
+around to something I've always wanted  -- an album cover
 generator: <https://stevenvictor.net/kmfdm>.  I was reminded of
 this when I was adding a few enhancements to the alphabet flashcard app <https://stevenvictor.net/abc>.  
 
@@ -17,12 +17,13 @@ from FlatIcon.com.
 
 ![Albums](/assets/images/albums.png)
 
-I'm sure there are plenty of good ways to one of many SVGs to display, but what I did was:
+I'm sure there are plenty of good ways to display one of many SVGs randomly, but what I did was:
 
 1.  Scale all of them down a bit.
 2.  Run them through <https://react-svgr.com/> to make them into react components
 3.  Concatenate all components into one file, and export an array of components.
-4.  Pick a component at random from the array.
+4.  Add in a parameter to set the fill color.
+5.  Pick a component at random from the array.
 
 There's still plenty to do on this.  The color values are duplicated between the css and the javascript.  I need get the image download button working on mobile.  I want to add some more SVGs that can pass for the style of Adrian Hughes.
 <https://www.pinterest.com/perihelion3/aidan-hugheskmfdm/>
