@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Airplane challenge
+title:  KFMDM Album Generator
 date:   2020-11-01 19:00:00 -0400
 categories: blog
 ---
@@ -13,4 +13,10 @@ this when I was adding a few enhancements to the alphabet flashcard app <https:/
 I love it when non sequiturs or random value sets up the perfect punchline.
 Here a a few of the funnier ones.
 
-![Albums](albums.png)
+![Albums](./albums.png)
+
+There's still plenty to do on this.  The color values are duplicated between the css and the javascript.  I need get the image download button working on mobile.  I want to add some more SVGs that can pass for the style of Adrian Hughes.
+<https://www.pinterest.com/perihelion3/aidan-hugheskmfdm/>
+
+The app is still good enough and fun enough to share, though.
+Have fun!
