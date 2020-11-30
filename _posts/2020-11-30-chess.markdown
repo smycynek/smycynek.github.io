@@ -1,0 +1,63 @@
+---
+layout: post
+title:  Chess 
+date:   2020-11-30 13:00:00 -0400
+categories: blog
+---
+I haven't had much time for new development lately, but over Thanksgiving,
+I saw the pilot of 'The Queen's Gambit.'
+
+I realized a few things.
+
+1.  I don't like chess.
+
+2.  Wait! It's not that I don't like chess, I just don't like games with a strong
+win-lose-capture-defeat theme that are associated with IQ scores and your worth
+as an alleged smart person.  I like games that are fun, like "Scategories" or "Bet on which crumb the Roomba will miss."
+
+3.  Everything else beside the gameplay -- the chess board, chess pieces, chess moves, opening books, algebraic notation, and chess computers are awesome!
+
+I tried teaching my four-year-old daughter chess.  I was shocked!  
+
+*  She did not immediately show some savant or prodigy-like talent and checkmate 
+me in two moves in some sort of cinematic way.  The focus depth of field didn't even change as she moved a piece!
+
+*  She did not make any sort of off-hand sage-like remark about how the Queen
+can go where no one else can go to get the job done, just like Mama, or that
+children are like pawns.
+
+*  There was no orchestral score to mark the point of inflection of a story arc!
+
+What the $#@&%!?
+
+:)
+
+My grandfather created a chess set in 1935 -- below.  It's the set my dad
+taught me to play on.  I know the rules, but I don't have any real strategy
+or insight into the game.
+
+![Albums](/assets/images/chess_handmade.jpg)
+
+Here's a chess set I rendered with LightWave3D when I was in college.  I spent
+a lot of time on the custom texture maps -- this was back when a rendering like
+this would take 3-4 hours of 100% of a computer's resources.
+
+![Albums](/assets/images/chess_render.jpg)
+
+Anyway, over Thanksgiving, because of the Netflix series, I started looking at chess engines.  It turns out that
+[Stockfish](https://github.com/official-stockfish/Stockfish) is open-source and pretty easy to build.
+
+The API, [UCI](https://en.wikipedia.org/wiki/Universal_Chess_Interface) (Universal Chess Interface) is interesting.  It's not REST, thankfully
+not SOAP -- it's standard-input to a console with a few key words and algebraic
+chess notation.
+
+I found a few other things:
+
+1) UCI-based chess engines are often stateless.  You must supply the entire history of legal moves on your own from your own decisions and records in your own internal state, whether that state is kept by a human or another chess engine.
+
+2) The UCI-based engine's primary purpose is on calculating best moves, not helping a developer build a chess game.  So, if you want to build a chess UI using an existing
+'back-end', you might be surprised.
+
+I'll spend more time working on this and seeing what else fun I
+can come up with.  I suspect I will need to actually play and lose a few dozen (or more?) games before I comfortable enough reading
+the chess notation well enough to program with it effectively.
