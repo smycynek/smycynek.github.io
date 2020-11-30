@@ -15,7 +15,7 @@ I realized a few things.
 win-lose-capture-defeat theme that are associated with IQ scores and your worth
 as an alleged smart person.  I like games that are fun, like "Scategories" or "Bet on which crumb the Roomba will miss."
 
-3.  Everything else beside the gameplay -- the chess board, chess pieces, chess moves, opening books, algebraic notation, and chess computers are awesome!
+3.  Everything else besides the gameplay -- the chess board, chess pieces, chess moves, opening books, algebraic notation, and chess computers are awesome!
 
 I tried teaching my four-year-old daughter chess.  I was shocked!  
 
@@ -30,15 +30,19 @@ children are like pawns.
 
 What the $#@&%!?
 
+She did manage to try to copy the chess board I drew, though:
+
+![Albums](/assets/images/chess_drawing.jpg)
+
 :)
 
-My grandfather created a chess set in 1935 -- below.  It's the set my dad
+My grandfather built a chess set in 1935 -- below.  It's the set my dad
 taught me to play on.  I know the rules, but I don't have any real strategy
 or insight into the game.
 
 ![Albums](/assets/images/chess_handmade.jpg)
 
-Here's a chess set I rendered with LightWave3D when I was in college.  I spent
+Here's a chess set I modeled and rendered with LightWave3D when I was in college.  I spent
 a lot of time on the custom texture maps -- this was back when a rendering like
 this would take 3-4 hours of 100% of a computer's resources.
 
@@ -53,9 +57,9 @@ chess notation.
 
 I found a few other things:
 
-1) UCI-based chess engines are often stateless.  You must supply the entire history of legal moves on your own from your own decisions and records in your own internal state, whether that state is kept by a human or another chess engine.
+1.  UCI-based chess engines are often stateless.  You must supply the entire history of legal moves on your own from your own decisions and records in your own internal state, whether that state is kept by a human or another chess engine.
 
-2) The UCI-based engine's primary purpose is on calculating best moves, not helping a developer build a chess game.  So, if you want to build a chess UI using an existing
+2.  The UCI-based engine's primary purpose is on calculating best moves, not helping a developer build a chess game.  So, if you want to build a chess UI using an existing
 'back-end', you might be surprised.
 
 I'll spend more time working on this and seeing what else fun I
