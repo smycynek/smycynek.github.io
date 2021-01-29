@@ -1,0 +1,32 @@
+---
+layout: post
+title:  Chess part 2
+date:   2021-01-29 14:22:00 -0400
+categories: blog
+---
+
+I'm taking an advanced ReactJS class in a month, so I needed to
+get back into front-end a little and remember everything I've forgotten.
+
+I've been playing a lot of chess with my daughter, and I love chess puzzles,
+the kind you see in newspapers and books that prompt you to pick the best move
+for white or black or explain why a certain move won't work.
+
+I don't think I can get into hosting or connecting to an engine like https://stockfishchess.org/ right now, but given the theme of 'post and share' I had
+from https://stevenvictor.net/quizwiz, I thought, why not a puzzle site?
+
+
+So, my first attempt is at https://www.stevenvictor.net/chess/
+
+There was a mistake in one of the puzzles early-on, and within hours,
+someone was making fun of it on reddit: https://www.reddit.com/r/AnarchyChess/comments/l6noh2/if_they_didnt_tell_me_my_rook_was_pinned_to_my/
+I was flattered :)
+
+The code isn't as clean as I like -- modeling ranks and files is basically
+an invitation for off-by-one errors :), but I felt like sharing anyway.
+
+Next, I want to make an authoring tool and a back-end to store submissions.
+
+Here's what I have so far for authoring.  I want to clean up the CSS and merge this with the puzzle viewing page before it goes online.
+
+https://www.youtube.com/watch?v=Oczqku-iEq4
