@@ -25,10 +25,10 @@ Anyway, I’m still thrilled with how this turned out.  If I can make a few peop
 *	Lifting State Up
 *	Routing and tabs
 
-Here's a 
+Here's a
 [simple but fun](https://stevenvictor.net/chess/#/chess/create?question=Black%20to%20move%3A&answer=Vg%E2%80%99f%20nyernql%20purpxzngr.&data=wKh1%2CwBa1%2CwPf2%2CwPg2%2CwPh2%2CbPg4%2CbPh5%2CbBf5%2CbPb5%2CwNf6%2CbPa6%2CbNe6%2CbNh6%2CbBg7%2CwNf7%2CbNe7%2CbKh8)
 puzzle I created.
 
 Here’s the bitmap just for completeness:
 
-![Albums](/assets/images/chess_puzzle_2_4_201.png)
+![Albums](/assets/images/chess_puzzle_2_4_2021.png)
