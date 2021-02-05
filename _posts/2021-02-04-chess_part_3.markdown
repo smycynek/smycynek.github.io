@@ -25,10 +25,19 @@ Anyway, I’m still thrilled with how this turned out.  If I can make a few peop
 *	Lifting State Up
 *	Routing and tabs
 
+#### Query strings, an API for a UI
+I'm sure I'm not the first person to think of this,
+but an application designed this way, where the query string
+or URL in general serves to manipulate a UI, feels like an API.
+
+In MVVM (Model View ViewModel), the query string would be the interface
+that the ViewModel exposes.  I usually spend my days making a UI drive an API
+that I had to take a minute and smile when saw I was driving a UI through a single GET HTTP call.  Like I said, I'm sure I'm not the first to think of this, but I wonder if I can use this pattern in other applications.
+
 Here's a
 [simple but fun](https://stevenvictor.net/chess/#/chess/create?question=Black%20to%20move%3A&answer=Vg%E2%80%99f%20nyernql%20purpxzngr.&data=wKh1%2CwBa1%2CwPf2%2CwPg2%2CwPh2%2CbPg4%2CbPh5%2CbBf5%2CbPb5%2CwNf6%2CbPa6%2CbNe6%2CbBg7%2CwNf7%2CbNe7%2CbKh8)
 puzzle I created.
 
 Here’s the bitmap just for completeness:
 
-![Board](/assets/images/chess_puzzle_2_4_2021.png)
+![Board](/assets/images/chess_puzzle_2_4_2021x.png)
