@@ -1,0 +1,33 @@
+---
+layout: post
+title:  Chess part 3
+date:   2021-02-04 21:00:00 -0400
+categories: blog
+---
+
+
+I’ve made more progress on my chess app.  The big improvement is that you can now serialize an entire board setup, including a riddle question and answer, into a URL string, so you can then post the puzzle anywhere or text it to a friend, and no back-end, signup, or login is needed.  Best of all, since it’s a description, not a static image, someone else can edit it a bit (perhaps find an alternate solution), and post it again.  
+
+There are still some rough edges I want to polish up, but I’m going to take a short break.  In particular, I’d like:
+
+1. To have the toolbars and other buttons wrap to fit any screen shape, mostly so I can make nicer Instagram posts :)
+2. True drag and drop support:  LiChess.org has a similar puzzle editor that supports this, but overall, I still like mine better :).
+3. A better share button:  Actually copying text, such as a url, into the copy buffer of any desktop or mobile device is kind of a hack, and getting the nice native ‘share’ to Facebook, twitter, email, SMS, etc.. popup you see on the iPhone will require some more work.
+4. A good screen capture system for when I do want an actual bitmap:  There are plenty of ways to do this, but none of them work as well as I’d like.
+5. Support for PGN and FEN-string style board descriptions:  FEN seemed like a bit of a pain to work with, so I used my own nested map system that works nicely with JSON.
+6. A more compressed query string:  I already scramble the puzzle answer in the URL,
+but I might use tinyURL or some other system to make the URL shorter.
+
+Anyway, I’m still thrilled with how this turned out.  If I can make a few people smile and want to send a few chess setups to their friends, I’m happy.   Plus, in ReactJS, I got to use:
+
+*	Dynamically configured CSS
+*	Callbacks
+*	Lifting State Up
+*	Routing and tabs
+
+Here's a [simple but fun]
+(https://stevenvictor.net/chess/#/chess/create?question=Black%20to%20move%3A&answer=Vg%E2%80%99f%20nyernql%20purpxzngr.&data=wKh1%2CwBa1%2CwPf2%2CwPg2%2CwPh2%2CbPg4%2CbPh5%2CbBf5%2CbPb5%2CwNf6%2CbPa6%2CbNe6%2CbNh6%2CbBg7%2CwNf7%2CbNe7%2CbKh8) puzzle I created.
+
+Here’s the bitmap just for completeness:
+
+![Board](/assets/images/chess_puzzle_2_4_201.png)
