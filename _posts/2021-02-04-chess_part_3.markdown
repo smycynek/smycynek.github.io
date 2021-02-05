@@ -40,4 +40,4 @@ puzzle I created.
 
 Here’s the bitmap just for completeness:
 
-![Board](/assets/images/chess_puzzle_2_4_2021x.png)
+![Board](/assets/images/chess_puzzle_2_4_2021.png)
