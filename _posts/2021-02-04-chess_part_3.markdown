@@ -31,4 +31,4 @@ puzzle I created.
 
 Here’s the bitmap just for completeness:
 
-![Albums](/assets/images/chess_puzzle_2_4_2021.png)
+![Board](/assets/images/chess_puzzle_2_4_2021.png)
