@@ -8,7 +8,7 @@ categories: blog
 
 I’ve made more progress on my [chess site](https://stevenvictor.net/chess).  
 
-The big improvement is that you can now serialize an entire board setup, including a riddle question and answer, into a URL string, so you can then post the puzzle anywhere or text it to a friend, and no back-end, sign-up, or login is needed.  Best of all, since it’s a description, not a static image, someone else can edit it a bit (perhaps find an alternate solution), and post it again.   I owe a big thanks to [Aaron from aaronvanderpoel.com][(http://www.aaronvanderpoel.com) for this idea!
+The big improvement is that you can now serialize an entire board setup, including a riddle question and answer, into a URL string, so you can then post the puzzle anywhere or text it to a friend, and no back-end, sign-up, or login is needed.  Best of all, since it’s a description, not a static image, someone else can edit it a bit (perhaps find an alternate solution), and post it again.   I owe a big thanks to [Aaron from aaronvanderpoel.com](http://www.aaronvanderpoel.com) for this idea!
 
 There are still some rough edges I want to polish up, but I’m going to take a short break.  When I get back to this, I’d like:
 
