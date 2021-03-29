@@ -16,13 +16,8 @@ The big changes are:
 
 My new favorite part of the whole site is how the drag and drop works.
 Often times, HTML drag and drop API code modifies actual DOM elements,
-but this goes against the grain of React a bit.  Here, instead,
-the drag and drop code stores
-and queries the element IDs of the various squares,
-toolbars, and chess pieces to deduce what is going where and why.  
-Then, the drop action updates
-the abstract board definition data structure in a React hook, which then renders
-the board graphics as HTML with the new chess layout.
+but this goes against the grain of React a bit.  Here, instead, the drag and drop code stores and queries the element IDs of the various squares, toolbars, and chess pieces to deduce what is going where and why. Then, the drop action updates the abstract board definition data structure in a React hook, which then renders the board graphics as HTML with the new chess layout.  I left some logging in to show all the drag and drop actions,
+so you can see them in the debugger tools.
 
 I've gotten some great feedback from the community as well.
 
@@ -34,11 +29,17 @@ I've gotten some great feedback from the community as well.
 
 * [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/l63lt3/my_own_chess_puzzle_site_minimal_but_just_getting/)
 
-I still need to work on mobile touch support for dragging/swiping.  For now, tapping on mobile
-will have to do.  I'd also like to break up some of the UI components, like the toolbars,
-partially so can have them float and realign around the board for different screen shapes.
+I still need to work on mobile touch support for dragging/swiping.  For now, tapping on mobile will have to do.  I'd also like to break up some of the UI components, like the toolbars, partially so can have them float and realign around the board for different screen shapes.  I also want to expand the area you can use to drag a piece off the board without
+tying the div in the main app page to anything edit-specific, so I might need some kind
+of invisible 'table' object that the board sits on.
 
-I've gotten a request to link to an engine for analysis, but that will take more time :)
+Finally, I want to add in an option to flip the board to see it from black's perspective.
+This obviously changes the POV of the coordinates, ranks, and files as well, so I'll
+save that for a day when I have plenty of time.
+
+I've gotten a request to link to an engine for analysis, but that will take more time
+as well.  There might also be a Django back-end in the future, but I like what I can
+do with just a static site so far.
 
 Current editor
 
