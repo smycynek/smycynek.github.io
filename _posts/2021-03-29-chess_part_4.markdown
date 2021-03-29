@@ -15,13 +15,16 @@ The big changes are:
 4. More sample content
 
 My new favorite part of the whole site is how the drag and drop works.
-Often times, HTML drag API code modifies DOM elements, but this goes against
-the grain of React a bit.  So, I use the element IDs of the various squares,
-toolbars, and chess pieces to deduce what is going where, and then I update
-the data structure with the board definition in a React hook, which then renders
-the board with the new layout.
+Often times, HTML drag and drop API code modifies actual DOM elements,
+but this goes against the grain of React a bit.  Here, instead,
+the drag and drop code stores
+and queries the element IDs of the various squares,
+toolbars, and chess pieces to deduce what is going where and why.  
+Then, the drop action updates
+the abstract board definition data structure in a React hook, which then renders
+the board graphics as HTML with the new chess layout.
 
-I've gotten some great feedback as well:
+I've gotten some great feedback from the community as well.
 
 * [r/ChessPuzzles - latest video demo](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
 
@@ -31,9 +34,9 @@ I've gotten some great feedback as well:
 
 * [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/l63lt3/my_own_chess_puzzle_site_minimal_but_just_getting/)
 
-I still need to work on mobile touch support for dragging.  For now, tapping on mobile
+I still need to work on mobile touch support for dragging/swiping.  For now, tapping on mobile
 will have to do.  I'd also like to break up some of the UI components, like the toolbars,
-partially so can have them float and realign around the board.
+partially so can have them float and realign around the board for different screen shapes.
 
 I've gotten a request to link to an engine for analysis, but that will take more time :)
 
