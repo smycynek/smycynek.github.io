@@ -16,7 +16,7 @@ The big changes are:
 
 I've gotten some great feedback as well:
 
-* [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
+* [r/ChessPuzzles - latest video demo](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
 
 * [r/ChessProgramming](https://www.reddit.com/r/chessprogramming/comments/ll8idt/chess_puzzle_site_looking_for_feedback/)
 
