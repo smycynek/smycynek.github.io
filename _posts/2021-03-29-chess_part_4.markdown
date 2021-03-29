@@ -14,6 +14,13 @@ The big changes are:
 3. Drag and drop support on desktop -- no mobile yet :)
 4. More sample content
 
+My new favorite part of the whole site is how the drag and drop works.
+Often times, HTML drag API code modifies DOM elements, but this goes against
+the grain of React a bit.  So, I use the element IDs of the various squares,
+toolbars, and chess pieces to deduce what is going where, and then I update
+the data structure with the board definition in a React hook, which then renders
+the board with the new layout.
+
 I've gotten some great feedback as well:
 
 * [r/ChessPuzzles - latest video demo](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
