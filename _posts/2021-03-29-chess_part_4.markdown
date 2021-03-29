@@ -1,0 +1,34 @@
+---
+layout: post
+title:  Chess part 4
+date:   2021-03-29 12:00:00 -0400
+categories: blog
+---
+
+More updates on my [chess site](https://stevenvictor.net/chess)!
+
+The big changes are:
+
+1. More consistent UI (margins, button styles, text styles...)
+2. Much nicer share buttons to post to SMS, Twitter, and other media
+3. Drag and drop support on desktop -- no mobile yet :)
+4. More sample content
+
+I've gotten some great feedback as well:
+
+* [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
+
+* [r/chessprogramming] https://www.reddit.com/r/chessprogramming/comments/ll8idt/chess_puzzle_site_looking_for_feedback/
+
+* [r/ChessPuzzles]https://www.reddit.com/r/ChessPuzzles/comments/lcpauh/chess_puzzle_tool_improvements_now_with_post_and/
+
+* [r/ChessPuzzles]https://www.reddit.com/r/ChessPuzzles/comments/l63lt3/my_own_chess_puzzle_site_minimal_but_just_getting/
+
+I still need to work on mobile touch support for dragging.  For now, tapping on mobile
+will have to do.  I'd also like to break up some of the UI components, like the toolbars,
+partially so can have them float and realign around the board.
+
+I've gotten a request to link to an engine for analysis, but that will take more time :)
+
+![Board](/assets/images/edit_3_29.png)
+![Twitter](/assets/images/twitter_cp1.png)
