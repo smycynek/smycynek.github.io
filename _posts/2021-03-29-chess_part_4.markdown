@@ -18,7 +18,7 @@ I've gotten some great feedback as well:
 
 * [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/mdm2nh/my_chess_puzzle_app_now_supports_drag_and_drop/)
 
-* [r/chessprogramming](https://www.reddit.com/r/chessprogramming/comments/ll8idt/chess_puzzle_site_looking_for_feedback/)
+* [r/ChessProgramming](https://www.reddit.com/r/chessprogramming/comments/ll8idt/chess_puzzle_site_looking_for_feedback/)
 
 * [r/ChessPuzzles](https://www.reddit.com/r/ChessPuzzles/comments/lcpauh/chess_puzzle_tool_improvements_now_with_post_and/)
 
