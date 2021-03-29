@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Side project notes
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://smycynek.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
+markdown: kramdown
 github_username:  smycynek
 linkedin_username: steve-mycynek
 

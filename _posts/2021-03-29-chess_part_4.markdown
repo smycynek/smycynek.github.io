@@ -32,8 +32,8 @@ I've gotten a request to link to an engine for analysis, but that will take more
 
 Current editor
 
-![Board](/assets/images/edit_3_29.png)
+![Board](/assets/images/edit_3_29.png){:height="50%" width="50%"}
 
 Posting preview
 
-![Twitter](/assets/images/twitter_cp1.png)
+![Twitter](/assets/images/twitter_cp1.png){:height="50%" width="50%"}
