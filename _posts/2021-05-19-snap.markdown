@@ -21,8 +21,8 @@ so I'm getting there.
 * [Source](https://github.com/smycynek/oh-snap)
 * [Video demo](https://www.youtube.com/watch?v=trJgt92jGdE)
 
-Given the AutoCAD history of calling object snap "OSNAP", I could resist the
-"oh, snap!" play on words, as in "Oh, snap!  That line is a little crooked."
+Given the AutoCAD history of calling object snap "OSNAP", I couldn't resist the
+"oh, snap!" play on words, as in "Oh, snap!  That line is a little crooked!"
 
 If you're not familiar with object snap, you've probably seen it before and didn't realize it.  Even if you don't use AutoCAD, SolidWorks, OnShape, or other CAD systems, in
 most drawing and layout programs, like PowerPoint, there are options to automatically
