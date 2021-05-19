@@ -7,6 +7,8 @@ categories: blog
 
 I have a new project, [Object Snap Demo](https://stevenvictor.net/snap)!
 
+![Snap](/assets/images/snap.png)
+
 It's not as fancy as my [chess demo](https://stevenvictor.net/chess), but it's
 in AngularJS, which I have not used in a while, so I'm getting back into it.
 
@@ -15,9 +17,9 @@ compared to ReactJS, although now the tables are turned, and I miss React.  Stil
 `$scope` is easy and intuitive to work with, and `protractor` is similar to `Cypress`,
 so I'm getting there.
 
-* [Site] https://www.stevenvictor.net/snap/
-* [Source] https://github.com/smycynek/oh-snap
-* [Video demo] https://www.youtube.com/watch?v=trJgt92jGdE
+* [Site](https://www.stevenvictor.net/snap/)
+* [Source](https://github.com/smycynek/oh-snap)
+* [Video demo](https://www.youtube.com/watch?v=trJgt92jGdE)
 
 Given the AutoCAD history of calling object snap "OSNAP", I could resist the
 "oh, snap!" play on words, as in "Oh, snap!  That line is a little crooked."
@@ -29,12 +31,12 @@ to the endpoint or midpoint of another line without requiring a very steady hand
 or calculator.  Basically, drag the mouse near any of the snap categories you have selected,
 and one of those points of interest will be selected and used in whatever you're trying to do.
 
-If I had more time -- I'd like to refactor the code further, including factoring
-the main view into components, using a lambda and find function rather than a loop
+I'd like to refactor the code further, including breaking
+the main view into components and using a lambda and find function rather than a loop
 when searching for snap points.  What I'd like even more is to segment the drawing area
 into regions to cut down on the search time.   For example, if we partitioned our space
 into nine regions, like a 3x3 grid, we could perhaps bucket all geometry in those regions
 together and only search the bucket the mouse point is in.  I got the idea from
 using a web CAPTCHA asking me to click all squares that had cars in them :)
 
-I'd also love to actually give the user ability to draw lines and circle and use the snap points to anchor them rather than just showing the snap selection process, but there's only so much I can do in my spare time.
+I'd also love to actually give the user ability to draw lines and circle and use the snap points to anchor them rather than just showing the snap selection process.  There's only so much I can do in my spare time, so we'll see.
