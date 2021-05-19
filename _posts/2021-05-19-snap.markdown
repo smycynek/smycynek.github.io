@@ -1,0 +1,40 @@
+---
+layout: post
+title:  Object Snap
+date:   2021-05-19 12:00:00 -0400
+categories: blog
+---
+
+I have a new project, [Object Snap Demo](https://stevenvictor.net/snap)!
+
+It's not as fancy as my [chess demo](https://stevenvictor.net/chess), but it's
+in AngularJS, which I have not used in a while, so I'm getting back into it.
+
+When I worked with AngularJS years ago, I found it much easier to get started with
+compared to ReactJS, although now the tables are turned, and I miss React.  Still,
+`$scope` is easy and intuitive to work with, and `protractor` is similar to `Cypress`,
+so I'm getting there.
+
+* [Site] https://www.stevenvictor.net/snap/
+* [Source] https://github.com/smycynek/oh-snap
+* [Video demo] https://www.youtube.com/watch?v=trJgt92jGdE
+
+Given the AutoCAD history of calling object snap "OSNAP", I could resist the
+"oh, snap!" play on words, as in "Oh, snap!  That line is a little crooked."
+
+If you're not familiar with object snap, you've probably seen it before and didn't realize it.  Even if you don't use AutoCAD, SolidWorks, OnShape, or other CAD systems, in
+most drawing and layout programs, like PowerPoint, there are options to automatically
+link geometry to other 'points' of interest in other geometry, such as connecting a line
+to the endpoint or midpoint of another line without requiring a very steady hand, eye,
+or calculator.  Basically, drag the mouse near any of the snap categories you have selected,
+and one of those points of interest will be selected and used in whatever you're trying to do.
+
+If I had more time -- I'd like to refactor the code further, including factoring
+the main view into components, using a lambda and find function rather than a loop
+when searching for snap points.  What I'd like even more is to segment the drawing area
+into regions to cut down on the search time.   For example, if we partitioned our space
+into nine regions, like a 3x3 grid, we could perhaps bucket all geometry in those regions
+together and only search the bucket the mouse point is in.  I got the idea from
+using a web CAPTCHA asking me to click all squares that had cars in them :)
+
+I'd also love to actually give the user ability to draw lines and circle and use the snap points to anchor them rather than just showing the snap selection process, but there's only so much I can do in my spare time.
