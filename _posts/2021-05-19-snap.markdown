@@ -37,6 +37,7 @@ when searching for snap points.  What I'd like even more is to segment the drawi
 into regions to cut down on the search time.   For example, if we partitioned our space
 into nine regions, like a 3x3 grid, we could perhaps bucket all geometry in those regions
 together and only search the bucket the mouse point is in.  I got the idea from
-using a web CAPTCHA asking me to click all squares that had cars in them :)
+using a web CAPTCHA asking me to click all squares that had cars in them :)  I could also
+use a search library like [https://github.com/mourner/rbush](https://github.com/mourner/rbush) -- one of my friends suggested that.
 
 I'd also love to actually give the user ability to draw lines and circle and use the snap points to anchor them rather than just showing the snap selection process.  There's only so much I can do in my spare time, so we'll see.
