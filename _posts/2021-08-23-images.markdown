@@ -5,35 +5,33 @@ date:   2021-08-23 12:00:00 -0400
 categories: blog
 ---
 
-I'm back working in CAD after a brief break, and one thing I see over
-and over again in the industry is  [Parasolid](https://www.plm.automation.siemens.com/global/en/products/plm-components/parasolid.html).  I recently heard a
-co-worker explain that Parasolid was something on the order of a thousand person-years worth of development in geometric modeling, and given that
-and that we all use it, I wanted to do something to honor this amazing fact.
+I'm back in CAD again after a brief break, and one thing I work with over
+and over again in the industry is [Parasolid](https://www.plm.automation.siemens.com/global/en/products/plm-components/parasolid.html), the parametric
+[solid modeling geometry kernel](https://en.wikipedia.org/wiki/Geometric_modeling_kernel).  I'm not a Parasolid expert, but either directly or indirectly, it's always somewhat near my code.
 
-To be clear -- I don't work for Siemens AG -- I found a Parasolid bug once,
-that's about it.
+I recently heard a co-worker state that Parasolid was something on the order of a thousand person-years worth of development in geometric modeling, and given that
+and that we all use it, I wanted to do something to honor this amazing fact.
 
 Given my recent look at embedding data into physical objects with [UUI-Key](https://www.onshape.com/en/resource-center/innovation-blog/onshapers-take-a-turn-at-product-design-for-annual-cad-competition), I decided to go in a similar direction and look at the binary layout of the Parasolid library.
 
-Here's what it looks like if you interpret 32-bit words as CMYK values.
+Here's what it looks like if you interpret 32-bit words of the library as CMYK values. I overlay a smaller, enlarged transparent section of bytes over the full collection as well to show some scale and detail.  Given a few limitations and quirks of the image creation process, reverse engineering is impossible, so I think I'm safe from the Siemens AG lawyers :)
 
-![Parasolid](/assets/images/parasolid_kernel_composite.png){:height="50%" width="50%"}
+![Parasolid](/assets/images/parasolid_kernel_composite.png){:height="100%" width="100%"}
 
-I refined this a bit more and made a collection of images of binaries you'll
-probably recognize.
+This was so much fun that I refined this a bit more and made a collection of images of files you'll probably recognize.
 
 ![Image grid](/assets/images/image_grid.png){:height="100%" width="100%"}
-
 
 Here's the source for [Make Image](https://github.com/smycynek/make_image)
 
 A few disclaimers:
 
-1.  There are a many ways to encode and decode and interpret bytes in a binary
-as pixels, and I wanted to use 4 bytes in a word for one color value, so I went
-with CMYK.  Having said that, if you put a BMP or TIFF into this script, you'll
+1.  There are a many ways to encode, decode and interpret bytes
+as pixels, and I wanted to use 4-bytes in a word for one color value, so I went
+with CMYK.  This is roughly equivalent to 1-2 pixels per machine-code
+instruction.  Having said that, if you put a BMP or TIFF into this script, you'll
 get back something that looks like the scrambled cable channels you tried to watch
 as a teenager in the 90s.
 
 2.  There is no embedded secret code or hidden agenda here.  Looking at data as pixels will reveal a few fun trends, mostly relating to the size of the file and if it has large sections of constant values, but character encoding and machine architecure has a lot to do with it, so don't read *too* much into any of the images :)  Having said that, I think the Parasolid image is the most beautiful,
-but I'm biased.
+but of course I'm biased.
