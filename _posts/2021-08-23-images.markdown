@@ -17,12 +17,12 @@ Given my recent look at embedding data into physical objects with [UUI-Key](http
 
 Here's what it looks like if you interpret 32-bit words as CMYK values.
 
-![Parasolid](/assets/images/parasolid_kernel_composite.png){:height="25%" width="25%"}
+![Parasolid](/assets/images/parasolid_kernel_composite.png){:height="50%" width="50%"}
 
 I refined this a bit more and made a collection of images of binaries you'll
 probably recognize.
 
-![Image grid](/assets/images/image_grid.png){:height="25%" width="25%"}
+![Image grid](/assets/images/image_grid.png){:height="100%" width="100%"}
 
 
 Here's the source for [Make Image](https://github.com/smycynek/make_image)
