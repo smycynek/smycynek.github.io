@@ -36,5 +36,8 @@ instruction.  Having said that, if you put a BMP or TIFF into this script, you'l
 get back something that looks like the scrambled cable channels you tried to watch
 as a teenager in the 90s.
 
-2.  There are no embedded secret codes or hidden agendas here.  Looking at data as pixels will reveal a few fun trends, often relating to the size of the file and if it has large sections of constant or repeated values, but character encoding and machine architecure has a lot to do with it, so don't read *too* much into any of the images -- no one is claiming that vim predicts that the world will end in 2027 :)  Having said that, I think the Parasolid image is the most beautiful,
-but of course I'm biased.
+2.  There are no embedded secret codes or hidden agendas here.  Looking at data as pixels will reveal a few fun trends, often relating to the size of the file and if it has large sections of constant or repeated values, but character encoding and machine architecure has a lot to do with it, so don't read *too* much into any of the images -- no one is claiming that vim predicts that the world will end in 2027 :)  Having said that, I think the Parasolid image is the most beautiful, but of course I'm biased.
+
+One inspiration for all of this is the bogus numerology that people apply to politics—-like if you take the numbers corresponding to the letters in "COVID-19" and add them up and put them in a 2x2 grid, you can see "666" or some garbage like that.    I was reminded of how you can take any data at all, massage it with a mapping function, and have it prove any crazy agenda you want.   So, I wanted to take this concept but with a positive message of color rather than conspiracy.
+
+I’m hardly the first person to do this — "Glitch art" started in the 1930s with experiments with film and continued all the way to Nine Inch Nails album covers in the 2000s.    My idea to use existing popular media as a source is sort of my take on all of it.
