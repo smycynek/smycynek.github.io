@@ -5,7 +5,18 @@ date:   2021-10-12 12:00:00 -0400
 categories: blog
 ---
 
-[ABC-Speak](https://stevenvictor.net/abcspeak)
+Finding an activity you can do with your children that is
+enriching for them and something you both relate to is always a bit of an experiment.
 
+Recently, I decided to make an interactive ABC website with my young daughter.  I took pictures of all the letters, A-Z, that she printed in crayon.  I then recorded her speaking each letter and a that started with each letter.
+
+The result is below!
+
+[ABC-Speak - https://stevenvictor.net/abcspeak](https://stevenvictor.net/abcspeak)
+
+Here's the source:
 [https://github.com/smycynek/abc-speak](https://github.com/smycynek/abc-speak)
+
+I'll admit I did this partially just to see if I could get it all done in one afternoon.  Of course, after that, there were a lot of tweaks, especially with mobile and CSS.  The code itself is nothing too complex, but it was a lot of fun for both my daughter and I.  I encourage you to take this source and replace it with your own images and audio -- send me a link to the results!
+
 
