@@ -22,7 +22,7 @@ Here's the source:
 I'll admit I did this partially just to see if I could get it all done in one afternoon.  Of course, after that, there were a lot of tweaks, especially with mobile and CSS.  The code itself is nothing too complex, but it was a lot of fun for both my daughter and I.  I encourage you to take this source and replace it with your own images and audio -- send me a link to the results!
 
 (Static screen shot)
-![Static screen shot](/assets/images/abcs.jpeg){:height="100%" width="100%"}
+![Static screen shot](/assets/images/abcs.jpeg){:height="50%" width="50%"}
 
 One usability challenge was telling the user that they can click on just a letter or noun image to hear just a letter or noun.  I didn't want too much text on the page other than the ABCs, so the user will need to explore this a bit.
 
