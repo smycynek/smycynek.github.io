@@ -4,13 +4,17 @@ title:  Learning activities with young children - Ten-frame construction kit
 date:   2021-11-15 10:00:00 -0400
 categories: blog
 ---
-My daughter is doing ten-frame arithmetic in school, so we made a ten-frame together.  It was so much fun, I decided to design a kit for making your own ten-frame.
-My goal is is to make a kit for under five dollars, ideally two or three, and provide easy instructions for parents and kids to work through together.
+My daughter is doing ten-frame arithmetic in school, so we made a ten-frame together.
+
+![Ten frame in progress](/assets/images/ten_frame_progress.jpg){:height="80%" width="80%"}
+
+It was so much fun, I decided to design a kit for making your own ten-frame.
+My goal is to make a kit for under five dollars, ideally two or three, and provide easy instructions for parents or teachers and kids to work through together.
 
 The instructions are pretty basic --
 an experienced woodworker might not find the project terribly interesting, but the main point is to do something interactive and educational with your kids.
 
-![Static screen shot](/assets/images/ten_frame.png){:height="80%" width="80%"}
+![Ten frame kit](/assets/images/ten_frame.png){:height="80%" width="80%"}
 
 ### Work in progress
 
@@ -20,7 +24,7 @@ an experienced woodworker might not find the project terribly interesting, but t
 ### Shopping list:
 
 1.  Picture frame: [https://www.michaels.com/wooden-rectangle-5in-x-4in-shadow-box-by-artminds/10647882.html](https://www.michaels.com/wooden-rectangle-5in-x-4in-shadow-box-by-artminds/10647882.html)
-2.  Square wood dowels: [https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html](https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html) or
+2.  Square wood dowels: [https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html](https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html)
 or [https://www.amazon.com/gp/product/B096P63WYV/ref=ox_sc_act_title_1?smid=A3BTZYV8IYFCZ9&psc=1](https://www.amazon.com/gp/product/B096P63WYV/ref=ox_sc_act_title_1?smid=A3BTZYV8IYFCZ9&psc=1)
 3.  Wood blocks (for counting and arithmetic): [https://www.amazon.com/gp/product/B07RHW43PZ/ref=ewc_pr_img_1?smid=A1DAYYSW7X7ON2&psc=1](https://www.amazon.com/gp/product/B07RHW43PZ/ref=ewc_pr_img_1?smid=A1DAYYSW7X7ON2&psc=1) or
 [https://www.hobbylobby.com/Crafts-Hobbies/Wood-Crafting/Unfinished-Wood/Wood-Cubes---1-2%22/p/20944](https://www.hobbylobby.com/Crafts-Hobbies/Wood-Crafting/Unfinished-Wood/Wood-Cubes---1-2%22/p/20944)
