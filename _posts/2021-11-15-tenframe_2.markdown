@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  Learning activities with young children - ten-frame construction kit
-date:   2021-11-15 12:00:00 -0400
+title:  Learning activities with young children - Ten-frame construction kit
+date:   2021-11-15 10:00:00 -0400
 categories: blog
 ---
 My daughter is doing ten-frame arithmetic in school, so we made a ten frame together.  It was so much fun, I decided to make a kit for making your own ten frame.
 [https://www.twinkl.com/teaching-wiki/ten-frame](https://www.twinkl.com/teaching-wiki/ten-frame)
+
+![Static screen shot](/assets/images/ten_frame.png){:height="80%" width="80%"}
 
 Work in progress below:
 
 [Instructions -- downloadable PDF](/assets/images/ten_frame.pdf)
 
 [CAD Files -- optional, just for fun](https://cad.onshape.com/documents/033ab6e463a810fad8bfef37/w/a2aa6eac0668a06b18d959c6/e/ce30e75c3017520dc9c206f1)
-
-![Static screen shot](/assets/images/ten_frame.png){:height="50%" width="50%"}
 
 Shopping list:
 
