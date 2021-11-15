@@ -14,7 +14,7 @@ My goal is to make a kit for under five dollars, ideally two or three, and provi
 The instructions are pretty basic --
 an experienced woodworker might not find the project terribly interesting, but the main point is to do something interactive and educational with your kids.
 
-![Ten frame kit](/assets/images/ten_frame.png){:height="80%" width="80%"}
+![Ten frame kit](/assets/images/ten_frame.png){:height="100%" width="100%"}
 
 ### Work in progress
 
