@@ -4,7 +4,8 @@ title:  Learning activities with young children - Ten-frame construction kit
 date:   2021-11-15 10:00:00 -0400
 categories: blog
 ---
-My daughter is doing ten-frame arithmetic in school, so we made a ten-frame together.
+My daughter is doing ten-frame arithmetic in school, so we made a ten-frame together.  A [ten-frame](https://www.twinkl.com/teaching-wiki/ten-frame) is sort of a simplified abacus that many
+schools use to teach basic counting, addition, and subtraction.
 
 ![Ten frame in progress](/assets/images/ten_frame_progress.jpg){:height="80%" width="80%"}
 
