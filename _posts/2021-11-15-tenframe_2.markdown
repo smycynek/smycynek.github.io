@@ -17,13 +17,11 @@ an experienced woodworker might not find the project terribly interesting, but t
 
 ![Ten frame kit](/assets/images/ten_frame.png){:height="100%" width="100%"}
 
-### Work in progress
-
-* [Instructions -- downloadable PDF](/assets/images/ten_frame.pdf)
+### Instructions
+* [Printable Instructions -- downloadable PDF](/assets/images/ten_frame.pdf)
 * [CAD Files -- optional, just for fun](https://cad.onshape.com/documents/033ab6e463a810fad8bfef37/w/a2aa6eac0668a06b18d959c6/e/ce30e75c3017520dc9c206f1)
 
-### Shopping list:
-
+### Shopping list
 1.  Picture frame: [https://www.michaels.com/wooden-rectangle-5in-x-4in-shadow-box-by-artminds/10647882.html](https://www.michaels.com/wooden-rectangle-5in-x-4in-shadow-box-by-artminds/10647882.html)
 2.  Square wood dowels: [https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html](https://www.michaels.com/12in-wooden-square-dowels-by-creatology/10422270.html)
 or [https://www.amazon.com/gp/product/B096P63WYV/ref=ox_sc_act_title_1?smid=A3BTZYV8IYFCZ9&psc=1](https://www.amazon.com/gp/product/B096P63WYV/ref=ox_sc_act_title_1?smid=A3BTZYV8IYFCZ9&psc=1)
@@ -35,5 +33,9 @@ You can certainly use marbles, beads, or anything else as well.
 6.  Butter knife or small wood saw to score the wood dowels if they are not pre-scored.
 
 ### Resources
-
 * [https://www.twinkl.com/teaching-wiki/ten-frame](https://www.twinkl.com/teaching-wiki/ten-frame)
+
+### About
+One of my hobbies is developing software that is free, fun, easy to use instantly, often educational, and has no advertisements.
+It drives me crazy when I see an ABCs app for the iPad that pushes toy advertisements or has a pay-wall to get the
+entire alphabet!  However, I would be remiss if I did not mention my employer, [PTC/Onshape](https://www.onshape.com) for the opportunity they have given me to develop the Onshape cloud-based CAD tool alongside their amazing team, which has free-to-use plans for individuals and educational institutions.  CAD is an important part of my career and helps me realize many of my ideas, so any chance I get to share that with others is a good day.
