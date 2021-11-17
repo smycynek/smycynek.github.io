@@ -36,6 +36,6 @@ You can certainly use marbles, beads, or anything else as well.
 * [https://www.twinkl.com/teaching-wiki/ten-frame](https://www.twinkl.com/teaching-wiki/ten-frame)
 
 ### About
-One of my hobbies is developing software that is free, fun, easy to use instantly, often educational, and has no advertisements.
+One of my hobbies is building software and other things that are free, fun, easy to use instantly, often educational, and have no advertisements.
 It drives me crazy when I see an ABCs app for the iPad that pushes toy advertisements or has a pay-wall to get the
-entire alphabet!  However, I would be remiss if I did not mention my employer, [PTC/Onshape](https://www.onshape.com) for the opportunity they have given me to develop the Onshape cloud-based CAD tool alongside their amazing team, which has free-to-use plans for individuals and educational institutions.  CAD is an important part of my career and helps me realize many of my ideas, so any chance I get to share that with others is a good day.
+entire alphabet!  However, I would be remiss if I did not mention that I modeled this kit in [Onshape](https://www.onshape.com).  I should also thank my employer, [PTC/Onshape](https://www.onshape.com) for the opportunity they have given me to develop the Onshape cloud-based CAD tool alongside their amazing team, which has free-to-use plans for individuals and educational institutions.  CAD is an important part of my life and career and helps me realize many of my ideas, so any chance I get to share that with others is a good day.
