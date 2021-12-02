@@ -33,8 +33,21 @@ an experienced woodworker might not find the project terribly interesting, but t
 
 I'd prefer to get everything from one supplier, but that's challenge, and only Amazon has
 the wood dowels in the soft balsa that's easy to cut, so I'd recommend them for the dowels
-unless you are comfortable sawing.  Total cost per unit: *Under four dollars -- under two dollars
-if you skip the sandpaper and furniture pads*
+unless you are comfortable sawing.
+
+Cost-per-unit breakdown:
+
+* Frame  ~ $0.99
+* Dowels ~ $0.83
+* Wood blocks ~ $0.99
+* Sandpaper ~ $0.37
+* Furniture pads ~ $0.58
+
+= $3.76 + tax
+
+As you can see, the total cost is under four dollars,
+and if you have some common household materials already,
+it could be half of that, so this is an inexpensive activity.
 
 ### Some kits ready to go
 ![Ten frame kits](/assets/images/ten_frame_kits.jpg){:height="100%" width="100%"}
