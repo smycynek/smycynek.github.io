@@ -1,0 +1,21 @@
+---
+layout: post
+title:  Graphics reboot
+date:   2022-01-05 10:00:00 -0400
+categories: blog
+---
+
+Even though I've worked in CAD for 20 years, I'll be the first to admit that
+I'm not a graphics or geometry expert -- I've worked more on the API and systems
+programing side of it.  Yeah, I did my three semesters of calculus, linear algebra and computer graphics class in college, and I've picked up a lot of solid
+modeling theory over the years, but really, I'm a generalist.
+
+I decided to work on this, so I started off with this [class on Pikuma](https://courses.pikuma.com/courses/learn-computer-graphics-programming).  I highly recommend it, as it goes into math, theory and implementation and not just how to get a shiny 3d model spinning on the screen.  Having said that, here's a shiny 3d model spinning on the screen :)
+
+![Ten frame kit](/assets/images/nin_c.jpg){:height="100%" width="100%"}
+I wrote all this in C from scratch, including all the math and rasterization
+code.
+
+I next went through the [WebGL Programming Guide](https://www.amazon.com/WebGL-Programming-Guide-Interactive-Graphics/dp/0321902920/ref=sr_1_3?crid=3G6M77ZE1F2UY&keywords=programming+webgl&qid=1641390115&sprefix=programming+webgl%2Caps%2C50&sr=8-3), and I made [this project template](https://stevenvictor.net/glta/), as most of the WebGL tutorials use ancient HTML and JavaScript.
+
+My next task is to go through [Fundamentals of Computer Graphics](https://www.amazon.com/Fundamentals-Computer-Graphics-Steve-Marschner/dp/0367505037/ref=sr_1_1?keywords=fundamentals+of+computer+graphics&qid=1641390177&sprefix=fundamentals+of+computer%2Caps%2C76&sr=8-1).  I'll let you know how it goes.
