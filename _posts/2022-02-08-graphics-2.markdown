@@ -15,8 +15,8 @@ I also did some modeling of chess pieces in [Onshape](https://cad.onshape.com/do
 Here are the [STL files](https://stevenvictor.net/chess_stl/) if you want to 3d print them.
 
 All of this was to prepare for my next project, 3d-chess puzzles.
-![Screen shot](/assets/images/chess_puzzles_3d_screen)
-Here's [a sample](https://stevenvictor.net/chess3d/?question=What%20move%20by%20white%20shows%20three%20tactics%20at%20once%3F&answer=Os6:%20%20Qvfpbirerq%20nggnpx,%20sbex,%20naq%20qbhoyr%20purpx&data=wKh1,bNf1,wPh2,wPg2,wRh3,wNb3,bBc3,wBh4,bBa4,bPb4,wPc5,bRb5,bPb6,bPa7,bPf7,bKh8&editMode=true)
+![Screen shot](/assets/images/chess_puzzles_3d_screen.png)
+Here's [a sample puzzle on stevevictor.net/chess3d](https://stevenvictor.net/chess3d/?question=What%20move%20by%20white%20shows%20three%20tactics%20at%20once%3F&answer=Os6:%20%20Qvfpbirerq%20nggnpx,%20sbex,%20naq%20qbhoyr%20purpx&data=wKh1,bNf1,wPh2,wPg2,wRh3,wNb3,bBc3,wBh4,bBa4,bPb4,wPc5,bRb5,bPb6,bPa7,bPf7,bKh8&editMode=true)
 
-There's a long way to go -- this site doesn't pan, zoom, tilt, or allow dragd/drop editing, but going from almost no graphics programming to this in a couple months has been a lot of fun.
+There's a long way to go -- this site doesn't pan, zoom, tilt, or allow drag/drop editing, but going from almost no graphics programming to this in a couple months has been a lot of fun.
 
