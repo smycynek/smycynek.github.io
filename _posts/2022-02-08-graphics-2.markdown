@@ -1,0 +1,22 @@
+---
+layout: post
+title:  Graphics reboot 2
+date:   2022-02-08 20:00:00 -0400
+categories: blog
+---
+Recently, I read through [WebGL Programming Guide](https://www.amazon.com/WebGL-Programming-Guide-Interactive-Graphics/dp/0321902920/ref=sr_1_3?crid=3G6M77ZE1F2UY&keywords=programming+webgl&qid=1641390115&sprefix=programming+webgl%2Caps%2C50&sr=8-3), and I made [this project template](https://stevenvictor.net/glta/), as most of the WebGL tutorials use ancient HTML and JavaScript.
+
+I also started on [Fundamentals of Computer Graphics](https://www.amazon.com/Fundamentals-Computer-Graphics-Steve-Marschner/dp/0367505037/ref=sr_1_1?keywords=fundamentals+of+computer+graphics&qid=1641390177&sprefix=fundamentals+of+computer%2Caps%2C76&sr=8-1).
+
+I also did some modeling of chess pieces in [Onshape](https://cad.onshape.com/documents/1ac43c0042a8a0544e84feed/w/276b025152b1f726b298cef5/e/edfe5d91c0347f7a7daa286a) and created some 3D renders as well:
+
+![Kasparov vs Deep Blue](/assets/images/kasparov_vs_deep_blue.png){:height="100%" width="100%"}
+
+Here are the [STL files](https://stevenvictor.net/chess_stl/) if you want to 3d print them.
+
+All of this was to prepare for my next project, 3d-chess puzzles.
+![Screen shot](/assets/images/chess_puzzles_3d_screen)
+Here's [a sample](https://stevenvictor.net/chess3d/?question=What%20move%20by%20white%20shows%20three%20tactics%20at%20once%3F&answer=Os6:%20%20Qvfpbirerq%20nggnpx,%20sbex,%20naq%20qbhoyr%20purpx&data=wKh1,bNf1,wPh2,wPg2,wRh3,wNb3,bBc3,wBh4,bBa4,bPb4,wPc5,bRb5,bPb6,bPa7,bPf7,bKh8&editMode=true)
+
+There's a long way to go -- this site doesn't pan, zoom, tilt, or allow dragd/drop editing, but going from almost no graphics programming to this in a couple months has been a lot of fun.
+
