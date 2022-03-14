@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Graphics reboot 2
+title:  Chess Journey
 date:   2022-02-08 20:00:00 -0400
 categories: blog
 ---
