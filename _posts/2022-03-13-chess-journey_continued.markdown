@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Chess Journey
-date:   2022-03-13 23:00:00 -0400
+date:   2022-03-13 23:30:00 -0400
 categories: blog
 ---
 
