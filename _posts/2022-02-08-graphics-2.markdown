@@ -14,7 +14,7 @@ At the same time, I did some modeling of chess pieces in [Onshape](https://cad.o
 
 ![Kasparov vs Deep Blue](/assets/images/kasparov_vs_deep_blue.png){:height="100%" width="100%"}
 
-Here are the [Onshape models](https://cad.onshape.com/documents/1ac43c0042a8a0544e84feed/w/276b025152b1f726b298cef5/e/edfe5d91c0347f7a7daa286a)
+Here are the [Onshape models](https://cad.onshape.com/documents/1ac43c0042a8a0544e84feed/w/276b025152b1f726b298cef5/e/c3193025dfaf1a651f190a93?configuration=List_bGoI1y3jF0OqLo%3DPosition&renderMode=0&uiState=627c56b1bac013545b5857c4)
 
 Here are the [STL files](https://stevenvictor.net/chess_stl/) if you want to 3d print them.
 
