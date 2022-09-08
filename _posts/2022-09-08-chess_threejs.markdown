@@ -26,15 +26,15 @@ When you think about it like that, WebGL is a lot like using C rather than assem
 expects you to write a game to compete with
 "The Last of Us, Part 1" in C with no libraries in your spare time.
 
-So, I decided it was time to try out a game engine and work with some power tools.
+So, I decided it was time to try out a game engine and work with some power tools -- ThreeJS in this case.
 
 ![Screen shot](/assets/images/chess_puzzles_threeJs.png)
 
-Here's a site I'm a lot happier with.
-Shading, animation, mobile support for pinch-zoom/tilt  -- it's a much better experience.
+Here's a site I'm a lot happier with. Shading, animation, mobile support for pinch-zoom/tilt  -- it's a much better experience.
 
-(https://stevenvictor.net/chess3d/?question=What%20move%20by%20white%20shows%20three%20tactics%20at%20once%3F&answer=Os6:%20%20Qvfpbirerq%20nggnpx,%20sbex,%20naq%20qbhoyr%20purpx&data=wKh1,bNf1,wPh2,wPg2,wRh3,wNb3,bBc3,wBh4,bBa4,bPb4,wPc5,bRb5,bPb6,bPa7,bPf7,bKh8&editMode=true)
+[New ThreeJS based Chess Puzzles](https://stevenvictor.net/chess3d/?question=What%20move%20by%20white%20shows%20three%20tactics%20at%20once%3F&answer=Os6:%20%20Qvfpbirerq%20nggnpx,%20sbex,%20naq%20qbhoyr%20purpx&data=wKh1,bNf1,wPh2,wPg2,wRh3,wNb3,bBc3,wBh4,bBa4,bPb4,wPc5,bRb5,bPb6,bPa7,bPf7,bKh8&editMode=true)
 
-I used the same "chess3d" url path, so older links now go to the new site.
+I used the same "chess3d" url path, so older links now go to the new site, but some older blog posts might seem a little confusing.
+You can still see the old site at (https://stevenvictor.net/chessGL)[https://stevenvictor.net/chessGL]
 
 My next task is to try out mouse and touch support for actually dragging and dropping pieces in 3D.
