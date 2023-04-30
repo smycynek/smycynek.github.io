@@ -4,4 +4,9 @@ title:  I am back
 date:   2023-04-29 18:30:00 -0400
 categories: blog
 ---
-It's been a busy year.
+It's been a busy 7 months.  New responsibilities at work -- lots to do
+at home, but it's all good.
+
+One fun project: [https://stevenvictor.net/famousgames3d/](https://stevenvictor.net/famousgames3d/).  I wrote the code in five minute increments, so it's messy and hard to debug.  When things settle down,
+I'll re-write it so you can browse many games from the last 100 years
+and even upload your own.
