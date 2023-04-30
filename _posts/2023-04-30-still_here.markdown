@@ -13,4 +13,4 @@ This was incredible fun, but I wrote it in 5-minute increments when I had time, 
 
 When I have more time, I think I'll re-write this from scratch the right way so you can view dozens of games from the last century or even upload your own.
 
-
+~
