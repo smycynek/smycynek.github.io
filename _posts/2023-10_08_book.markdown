@@ -1,0 +1,10 @@
+---
+layout: post
+title:  I am writing a book
+date:   2023-10-08 18:30:00 -0400
+categories: blog
+---
+What a year!  I have been writing a book about my father and how his story shaped mine.  It's taken all my free time, so I don't have any new open-source project updates.  I'm working with an editor and am looking to self-publish by mid-February 2024.
+
+A major part of book-writing is marketing and publicity.  I don't know if I'll have a book website, but I'll at least do some posting on Instagram <a href="https://www.instagram.com/steventhevictor">@steventhevictor</a>  See you there!
+
