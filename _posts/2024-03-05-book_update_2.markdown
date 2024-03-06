@@ -11,4 +11,4 @@ I have neglected this blog because I've been working on my book:
 
 It was a great experience but very tiring :)
 
-![Book Cover](/assets/images/cover_fssg.jpg)
+![Book Cover](/assets/images/cover_fssg.jpg){:height="35%" width="35%"}
