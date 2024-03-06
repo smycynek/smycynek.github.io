@@ -33,7 +33,6 @@ linkedin_username: steve-mycynek
 root: /
 # Build settings
 # using regular theme
-# theme: minima
 plugins:
   - jekyll-feed
   
