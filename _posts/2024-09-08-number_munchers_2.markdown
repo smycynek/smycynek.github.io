@@ -14,7 +14,7 @@ Number munchers continues to be great fun and a great success! Thank you for all
 
 My favorite comment so far:
 
-![Number Munchers](/assets/images/reddit_nm.jpg){:height="50%" width="50%"}
+![Number Munchers](/assets/images/reddit_nm.jpg){:height="200%" width="200%"}
 
 
 All the spinoff projects have been great as well.
